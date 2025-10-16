@@ -30,7 +30,7 @@ const HeroSection = () => {
         {/* Right Side - Image */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="./profile.png"
+            src="./images/profile.png"
             alt="Ad Campaigns Illustration"
             className="w-full max-w-md rounded-xl shadow-lg"
           />

@@ -37,19 +37,19 @@ const HomePage = () => {
               link={"./case-studies"}
               title={"Complete Bazaar"}
               description={"This is an ecommerce website for electronic items"}
-              imageUrl={"./20250308_211155.jpg"}
+              imageUrl={"./images/20250308_211155.jpg"}
             />
             <ProjectCard 
               link={"./case-studies"}
               title={"Complete Bazaar"}
               description={"This is an ecommerce website for electronic items"}
-              imageUrl={"./20250308_211155.jpg"}
+              imageUrl={"./images/20250308_211155.jpg"}
             />
             <ProjectCard 
               link={"./case-studies"}
               title={"Complete Bazaar"}
               description={"This is an ecommerce website for electronic items"}
-              imageUrl={"./20250308_211155.jpg"}
+              imageUrl={"./images/20250308_211155.jpg"}
             />
           </div>
         </div>

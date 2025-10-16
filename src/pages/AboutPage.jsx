@@ -14,11 +14,11 @@ const SkillCard = ({ skill, icon, level }) => {
 };
 
 const skillsData = [
-  { skill: 'React', icon: './react-original.svg', level: 90 },
-  { skill: 'Node.js', icon: './nodejs-original.svg', level: 85 },
-  { skill: 'Python', icon: './python-original.svg', level: 80 },
-  { skill: 'SQL', icon: './icons8-my-sql.svg', level: 75 },
-  { skill: 'Machine Learning', icon: './icons8-machine-learning-50.png', level: 70 },
+  { skill: 'React', icon: './images/react-original.svg', level: 90 },
+  { skill: 'Node.js', icon: './images/nodejs-original.svg', level: 85 },
+  { skill: 'Python', icon: './images/python-original.svg', level: 80 },
+  { skill: 'SQL', icon: './images/icons8-my-sql.svg', level: 75 },
+  { skill: 'Machine Learning', icon: './images/icons8-machine-learning-50.png', level: 70 },
 ];
 
 const AboutPage = () => {
@@ -75,7 +75,7 @@ const AboutPage = () => {
           {/* Image */}
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <img
-              src="./20250308_213654.jpg"
+              src="./images/20250308_213654.jpg"
               alt="Sujeet working"
               className="w-80 rounded-2xl shadow-lg object-cover transition-transform duration-500 hover:rotate-3"
             />
@@ -107,7 +107,7 @@ const AboutPage = () => {
           {/* Image */}
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <img
-              src="./20250308_211155.jpg"
+              src="./images/20250308_211155.jpg"
               alt="Sujeet working"
               className="w-80 rounded-2xl shadow-lg object-cover transition-transform duration-500 hover:rotate-3"
             />
