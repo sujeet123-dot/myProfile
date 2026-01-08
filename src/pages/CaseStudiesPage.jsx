@@ -89,8 +89,8 @@ const ProjectDetail = ({ id, title, problem, solution, techStack, imageUrl, live
 // --- MAIN PAGE COMPONENT (No changes here) ---
 const ProjectsPage = () => {
   const myStats = {
-    githubContributions: '100+',
-    leetcodeProblems: '24+',
+    githubContributions: '144+',
+    leetcodeProblems: '62+',
   };
 
   return (
