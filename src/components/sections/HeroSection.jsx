@@ -54,6 +54,7 @@ const HeroSection = () => {
         <div className="flex justify-center md:justify-end">
           <div className="relative group">
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-500/20 via-violet-500/20 to-fuchsia-500/20 blur-2xl transition-all duration-700 group-hover:blur-3xl" />
+            <img src="https://tpc.googlesyndication.com/simgad/4704394577765132765" border="0" width="300" height="250" alt class="img_ad"></img>
             <img
               src="./images/profile.png"
               alt="Profile"
