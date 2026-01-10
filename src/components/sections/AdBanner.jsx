@@ -42,7 +42,7 @@ const AdvancedAdSlot = () => {
     width: "300px",
     height: "250px",
     margin: "0 auto",
-    backgroundImage: 'url("/images/your-photo.jpg")',
+    backgroundImage: 'url("/images/profile.png")',
     backgroundSize: "cover",
     cursor: "pointer",
     position: "relative",
