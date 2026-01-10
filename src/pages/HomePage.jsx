@@ -6,6 +6,7 @@ import Button from '../components/ui/Button';
 import TechMarquee from '../components/sections/TechMarquee';
 import PortfolioHero from '../components/sections/PortfolioSection';
 import ProjectCard from '../components/ui/TestimonialCard';
+import AdBanner from '@/components/sections/AdBanner';
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
 
       {/* Hero Section */}
       <HeroSection />
+      <AdBanner />
 
       <TechMarquee />
 
