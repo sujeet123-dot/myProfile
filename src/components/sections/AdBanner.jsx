@@ -42,13 +42,22 @@ const AdBanner = () => {
 
   return (
     <div className="ad-wrapper" style={{ textAlign: 'center', padding: '10px' }}>
-      <p style={{ fontSize: '12px', color: '#666' }}>Sponsored Content</p>
-      
-      {/* The Ad renders inside this DIV, which has your image as the background */}
-      <div id="gpt-passback-container" style={containerStyle}>
-        {/* GPT will inject the iframe here */}
-      </div>
+  <p style={{ fontSize: '12px', color: '#666' }}>Sponsored Content</p>
+  
+  {/* 1. Wrap the anchor tag AROUND the ad div */}
+  <a 
+    href="https://www.zenithummedia.com" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style={{ textDecoration: 'none', display: 'inline-block' }} // Added display block to capture clicks
+  >
+    {/* 2. The Ad renders inside this DIV */}
+    <div id="gpt-passback-container" style={containerStyle}>
+      {/* GPT will inject the iframe here. 
+          If GPT fails, your background image in containerStyle will be clickable. */}
     </div>
+  </a>
+</div>
   );
 };
 
