@@ -23,10 +23,31 @@ const AdBanner = () => {
     });
   }, []);
 
+  // Style for the container to hold your image
+  const containerStyle = {
+    width: '300px',
+    height: '250px',
+    margin: '0 auto',
+    // Replace the URL below with your actual image path
+    backgroundImage: 'url("./profile.png")',
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    position: 'relative',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    border: '1px solid #ddd' // Optional: adds a border around your image
+  };
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-      {/* This ID must match the one in defineSlot and display */}
-      <div id="gpt-passback" style={{ width: '300px', height: '250px' }}></div>
+    <div className="ad-wrapper" style={{ textAlign: 'center', padding: '10px' }}>
+      <p style={{ fontSize: '12px', color: '#666' }}>Sponsored Content</p>
+      
+      {/* The Ad renders inside this DIV, which has your image as the background */}
+      <div id="gpt-passback-container" style={containerStyle}>
+        {/* GPT will inject the iframe here */}
+      </div>
     </div>
   );
 };
