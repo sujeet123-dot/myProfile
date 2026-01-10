@@ -10,6 +10,7 @@ import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicePage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
+import Redirector from './components/sections/Redirector';
 import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
 
