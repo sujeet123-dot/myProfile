@@ -29,7 +29,7 @@ const AdBanner = () => {
     height: '250px',
     margin: '0 auto',
     // Replace the URL below with your actual image path
-    backgroundImage: 'url("./profile.png")',
+    backgroundImage: 'url("/images/profile.png")',
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
